@@ -133,8 +133,8 @@ client.on("message", message => {
                     bans.forEach(ban => {
                         message.guild.members.unban(ban.user.id);
                     });
-                }).then(() => message.reply("Unbanned all users.")).catch(e => console.log(e))
-            } else {message.reply("You do not have enough permissions for this command.")}
+                }).then(() => message.reply("Unbanning everyone from here ;/. I won't reply again with a message once I'm done unbanning everyone so you might want to check the ban list to see if I'm done.")).catch(e => console.log(e))
+            } else {message.reply("You do not have enough permissions for this command lmao. Stop trying to raid")}
         break;
     }
 });
