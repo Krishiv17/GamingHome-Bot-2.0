@@ -1,0 +1,15 @@
+{
+  "name": "gaminghome-bot-2",
+  "version": "1.0.0",
+  "description": "A bot made for a Gaming server, with basic functionallitys for Moderation etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krishiv#1531",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "redis": "^3.0.2"
+  }
+}
