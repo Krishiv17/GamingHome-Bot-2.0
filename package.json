@@ -9,7 +9,7 @@
   "author": "Krishiv#1531",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.4.1",
+    "discord.js": "^12.5.1",
     "redis": "^3.0.2"
   }
 }
