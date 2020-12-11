@@ -1,4 +1,5 @@
 module.exports = (client) => {
+   guildOnly:true
     const isInvite = async (guild, code) => {
       return await new Promise((resolve) => {
         guild.fetchInvites().then((invites) => {
